@@ -1,0 +1,33 @@
+#To find maximum or minimum of two numbers
+
+"""def maximum(a, b):
+
+   if a <= b:
+      return a
+   else:
+      return b
+
+#driver code
+a=2
+b=4
+print(maximum(a,b)) 
+
+Output : 4 """
+
+"""a=2
+b=10
+c=min(a, b)
+print(c)
+
+Output: 2 """
+
+
+"""
+#Driver code
+
+a=-100
+b=-300
+print(a if a>= b else b) 
+
+Output: -100 """
+
