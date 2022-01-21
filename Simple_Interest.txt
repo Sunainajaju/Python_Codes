@@ -1,0 +1,13 @@
+#to find simple interest with various floating and interger values
+
+def SI(p, t, r):
+ print("Principle is ",p)
+ print("Time duration is ",t)
+ print("Rate is ",r)
+ 
+ si = (p * t * r)/100
+ print("\nSimple Interst is ",si)
+ return si
+ 
+#driver code
+SI(8, 6, 8)
