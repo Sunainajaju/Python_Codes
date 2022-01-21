@@ -1,0 +1,17 @@
+#Compound interest with floating and interger values
+
+def CI(p, t, r):
+
+ print("Principle is ",p)
+ print("Time duration is ",t)
+ print("Rate is ",r)
+ 
+ am = p * (pow((1+ r/100), t))
+ 
+ ci = am - p
+ 
+ print("Amount is ",am)
+ print("\ncompound interest is ",ci)
+ 
+#driver code
+CI(900, 10.5, 8)
