@@ -1,0 +1,11 @@
+def areacircle(r):
+ if r == 0:
+  return 0
+ else:
+  PI = 3.142
+  a= PI * (r * r)
+  return a
+  
+#driver code
+r = 4
+print("Area of square %.3f" % areacircle(r));
