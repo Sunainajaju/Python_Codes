@@ -1,0 +1,21 @@
+#to print fibonnaci number of given no. 
+
+def Fib(n):
+ 
+ if n <= 0:
+    print("Incorrect Input")
+    
+    #iteration from 0 to n
+    #First fib number is always 0
+ elif n == 1:
+    return 0
+    #Second fib number is always 1
+ elif n == 2:
+    return 1
+ else:
+    return Fib(n-1)+Fib(n-2)
+    
+#driver code
+
+n=15
+print("The fibonnaci series of ",n," is :\n",Fib(n))
